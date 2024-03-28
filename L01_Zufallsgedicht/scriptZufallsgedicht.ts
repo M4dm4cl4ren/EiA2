@@ -7,7 +7,7 @@ const objekte = ["Zaubertränke","den Grimm","Lupin","Hogwarts","die Karte des R
 function versGenerator() {
     const subjektePick = Math.floor(Math.random() * subjekte.length);
     const preadikatePick = Math.floor(Math.random() * preadikate.length);
-    const objektePick = Math.floor((Math.random()*objekte.length));
+    const objektePick = Math.floor((Math.random() * objekte.length));
 
     const vers = `${subjekte[subjektePick]} ${preadikate[preadikatePick]} ${objekte[objektePick]}.`;
     console.log(vers);
