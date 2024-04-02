@@ -7,7 +7,6 @@ Arrays anlegen
     |
     v
 versGenerator() Funktion wird angelegt
-
     |
     v
 5 Iterationen for-Schleife
