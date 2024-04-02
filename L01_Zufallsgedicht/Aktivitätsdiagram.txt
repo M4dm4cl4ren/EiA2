@@ -1,0 +1,28 @@
+   
+Script begin
+   
+    |
+    v
+Arrays anlegen
+    |
+    v
+versGenerator() Funktion wird angelegt
+
+    |
+    v
+5 Iterationen for-Schleife
+    |
+    v
+versGenerator() wird aufgerufen
+    |
+    v
+Random verse werden generiert
+    |
+    v
+Verse werden ausgegeben
+    |
+    v
+for Schleife erreicht ihre Finish condition und ist fertig ausgeführt
+    |
+    v
+Script ist fertig
