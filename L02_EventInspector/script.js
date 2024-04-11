@@ -1,5 +1,5 @@
 "use strict";
-let counter = 1;
+var counter = 0;
 const increase = document.getElementById("increase");
 const decrease = document.getElementById("decrease");
 increase.addEventListener("click", () => {
