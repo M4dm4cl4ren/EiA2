@@ -2,15 +2,17 @@
 var counter = 0;
 const increase = document.getElementById("increase");
 const decrease = document.getElementById("decrease");
+const cursor = document.getElementById('cursor');
+const positionDisplay = document.getElementById('position');
 document.addEventListener('DOMContentLoaded', () => {
-    const cursor = document.querySelector('cursor');
-    const positionDisplay = document.getElementById('position');
     document.addEventListener("mousemove", (e) => {
         const x = e.clientX;
         const y = e.clientY;
         cursor.style.left = x + "px";
         cursor.style.top = y + "px";
-        positionDisplay.textContent = `${e.pageX}px, ${e.pageY}px`;
+        positionDisplay.style.left = (x) + 'px';
+        positionDisplay.style.top = (y) + 'px';
+        positionDisplay.innerHTML = `${e.pageX}px, ${e.pageY}px`;
     });
 });
 increase.addEventListener("click", () => {

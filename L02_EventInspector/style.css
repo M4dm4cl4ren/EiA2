@@ -15,17 +15,17 @@ h1 {
 
 #cursor {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: orange;
+    background-color: red;
     border-radius: 50%;
     pointer-events: none;
 }
 
 #position {
-    position: fixed;
-    top: 10px;
-    left: 10px;
+    position: absolute;
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #box-container {
