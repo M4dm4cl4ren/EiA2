@@ -1,0 +1,11 @@
+#div0, #div1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#div0{
+    background-color: black;
+}
+#div1{
+    background-color: blue;
+}
