@@ -1,17 +1,51 @@
-html {
+body {
     background-color: grey;
 }
 
-#container {
+h1 {
+    text-align: center;
+}
+
+#cursor-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#cursor {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#position {
+    position: absolute;
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#box-container {
+    height: 100vh;
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 
 #div0,
 #div1 {
-    width: 50%;
+    height: 50vh;
+    width: 50vh;
+    box-sizing: border-box;
     float: left;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #div0 {
