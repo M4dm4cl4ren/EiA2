@@ -1,11 +1,23 @@
-#div0, #div1 {
+html {
+    background-color: grey;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#div0,
+#div1 {
     width: 50%;
     float: left;
     text-align: center;
 }
-#div0{
+
+#div0 {
     background-color: black;
 }
-#div1{
+
+#div1 {
     background-color: blue;
 }
