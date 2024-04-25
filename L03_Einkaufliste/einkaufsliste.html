@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="scriptEinkaufsliste.js"></script>t
+    <link rel="stylesheet" href="einkaufslisteStyle.css">
+    <script src="scriptEinkaufsliste.js" defer></script>
     <title>Einkaufsliste</title>
 </head>
 <body>
-    
+    <h1>Einkaufsliste</h1>
+    <input type="text" placeholder="Neues Produkt hinzufügen"><button id="add">Hinzufügen</button>
+    <div id="einkaufsliste">
+        <table>
+            <caption><button id="Abschlussbutton">Einkaufabschließen</button></caption>
+            <thead>
+            <th scope="col">Produkt</th>
+            <th scope="col">Menge</th>
+            <th scope="col">Marke</th>
+            <th scope="col">Gekauft</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Spagetti</th>
+                    <td>6</td>
+                    <td>Barilla</td>
+                    <td><input type="checkbox" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th scope="row">Pesto</th>
+                    <td>1</td>
+                    <td>Gut und Günstig</td>
+                    <td><input type="checkbox" name="" id=""></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
