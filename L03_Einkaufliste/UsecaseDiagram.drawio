@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2024-04-25T14:43:13.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="lazAZEiZXgU9BErwZTis" version="24.3.0" type="github">
+  <diagram name="Seite-1" id="w2IUUM3Uji02GzOmvr9s">
+    <mxGraphModel dx="1103" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Sm_TVZzpyXW-e3UnGyR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Sm_TVZzpyXW-e3UnGyR-1" target="9Sm_TVZzpyXW-e3UnGyR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Sm_TVZzpyXW-e3UnGyR-1" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Sm_TVZzpyXW-e3UnGyR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Sm_TVZzpyXW-e3UnGyR-2" target="9Sm_TVZzpyXW-e3UnGyR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Sm_TVZzpyXW-e3UnGyR-2" value="Anmeldung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Sm_TVZzpyXW-e3UnGyR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Sm_TVZzpyXW-e3UnGyR-4" target="9Sm_TVZzpyXW-e3UnGyR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Sm_TVZzpyXW-e3UnGyR-4" value="Abrufen der Einkaufslisten" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Sm_TVZzpyXW-e3UnGyR-12" value="Produkte hinzufügen/entfernen oder als gekauftmarkieren, kommentieren" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
