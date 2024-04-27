@@ -9,7 +9,18 @@
 </head>
 <body>
     <h1>Einkaufsliste</h1>
-    <input type="text" placeholder="Neues Produkt hinzufügen"><button id="add">Hinzufügen</button>
+    <form id="Hinzufügen">
+        <label for="Produkt">Produkt:</label>
+        <input type="text" placeholder="Produkt" id="produkt"><br>
+
+        <label for="Anzahl">Anzahl:</label>
+        <input type="text" placeholder="Menge" id="menge"> <br>
+
+        <label for="Marke">Marke:</label>
+        <input type="text" placeholder="Marke" id="marke">
+        <input type="submit" placeholder="Hinzufügen">
+    </form>
+    
     <div id="einkaufsliste">
         <table>
             <caption><button id="Abschlussbutton">Einkaufabschließen</button></caption>
@@ -24,15 +35,8 @@
                     <th scope="row">Spagetti</th>
                     <td>6</td>
                     <td>Barilla</td>
-                    <td><input type="checkbox" name="" id=""></td>
-                    <td><button>bearbeiten</button></td>
-                </tr>
-                <tr>
-                    <th scope="row">Pesto</th>
-                    <td>1</td>
-                    <td>Gut und Günstig</td>
-                    <td><input type="checkbox" name="" id=""></td>
-                    <td><button>bearbeiten</button></td>
+                    <td><input type="checkbox" name="" id="checkbox"></td>
+                    <td><button id="edit">bearbeiten</button></td>
                 </tr>
             </tbody>
         </table>
